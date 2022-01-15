@@ -1,4 +1,4 @@
-package br.com.addressclient.response;
+package br.com.addressclient.model.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
@@ -7,17 +7,12 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
-@NoArgsConstructor
 @AllArgsConstructor
+@NoArgsConstructor
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class AddressResponse {
-	
+public class AddressDTO {
+
 	private String cep;
-	private String logradouro;
 	private Long numero;
 	private String complemento;
-	private String bairro;
-	private String localidade;
-	private String uf;	
-
 }

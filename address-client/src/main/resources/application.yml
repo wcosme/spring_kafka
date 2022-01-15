@@ -15,5 +15,5 @@ spring:
       value-serializer: org.apache.kafka.common.serialization.StringSerializer
 
 topic:
-  endereco-cliente: topic_address
+  address: topic_address
   group-id: group_id

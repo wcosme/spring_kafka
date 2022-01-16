@@ -50,5 +50,5 @@ public class AddressController {
 		
 		return ResponseEntity.ok(addressResponse);
 		
-	}	
+	}
 }

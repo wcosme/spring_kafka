@@ -1,5 +1,6 @@
 <h1 align="left">Tutorial utilizando o Spring Cloud Feign e Kafka com Docker e Kafdrop</h1>
-<p align="left">Este repositório possui dois projetos demonstrando o funcionamento do Spring Cloud Feign com o Kafka no Docker. Um microservice cliente para consumir a API de CEP usando o Feign e produzir mensagens para o kafka e um microservice consumidor que fará a leitura dessas mensagens</p>
+<p align="left">Este repositório possui dois projetos demonstrando o funcionamento do Spring Cloud Feign com o Kafka no Docker. Um microservice cliente para consumir a API de CEP
+ usando o Feign e produzir mensagens para o kafka e um microservice consumidor que fará a leitura e a persistencia das mensagens no banco H2 em memória.</p>
 <h1 align="center">
     <a href="https://kafka.apache.org/">🔗 Kakfa</a>
 </h1>

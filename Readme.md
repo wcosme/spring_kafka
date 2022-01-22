@@ -13,7 +13,7 @@
 <p align="left">3º Execute os dois projetos</p>
 <p align="left">5º Envie uma requisição POST para o projeto produtor na seguinte rota: <strong> http://localhost:8081/api/v1/address </strong></p>
 
-<p><strong>Formato dp JSON</strong></p>
+<p><strong>Formato do JSON</strong></p>
 
 	{
 		"cep":"String", 
@@ -22,4 +22,4 @@
 	}
 
 <p align="left">6º Confira no KAFDROP as mensagens que foram enviadas para o Kafka. </p>
-<p align="left">7º Confira no banco H2 (em memória) as mensgagens salvas: http://localhost:8080/h2-console</p>
+<p align="left">7º Confira no banco H2 (em memória) as mensgagens salvas: <strong> http://localhost:8080/h2-console</strong></p>

@@ -11,7 +11,7 @@
 <p align="left">1º É necessário que você tenha o docker instalado em seu ambiente de trabalho</p>
 <p align="left">2º Para subir o Kafka com o Zookeeper, execute o arquivo docker-compose.yml com o seguinte comando: docker-compose up -d </p>
 <p align="left">3º Execute os dois projetos</p>
-<p align="left">5º Envie uma requisição POST para o projeto produtor na seguinte rota: <strong> http://localhost:8081/api/v1/address </strong></p>
+<p align="left">4º Envie uma requisição POST para o projeto produtor na seguinte rota: <strong> http://localhost:8081/api/v1/address </strong></p>
 
 <p><strong>Formato do JSON</strong></p>
 
@@ -21,5 +21,5 @@
 		"numero": "Numeric"
 	}
 
-<p align="left">6º Confira no KAFDROP as mensagens que foram enviadas para o Kafka. </p>
-<p align="left">7º Confira no banco H2 (em memória) as mensgagens salvas: <strong> http://localhost:8080/h2-console</strong></p>
+<p align="left">5º Confira no KAFDROP as mensagens que foram enviadas para o Kafka. </p>
+<p align="left">6º Confira no banco H2 (em memória) as mensgagens salvas: <strong> http://localhost:8080/h2-console</strong></p>
